@@ -53,7 +53,7 @@ class SearchDropdown extends React.Component {
                     } else {
                         this.setState({results: []});
                     }
-                }} type="search" placeholder="Search country..." />
+                }} type="search" placeholder="Search country..." className='search-input'/>
 
                 <CountriesBox results={this.state.results} isError={this.state.error}/>
             </div>
